@@ -1,493 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/icon-logo.jpg" type="image/x-icon">
-    <title>I F T I</title>
-
-    <!-- ===== css files ===== -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="color-1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!--====Style Switcher ====-->
-    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
-    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-    <link rel="stylesheet" href="style-switcher.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code Editor – Programming JB Academy</title>
+  <meta name="description" content="Interactive web code editor supporting HTML, CSS, and JavaScript with live preview and simple validation tests inside the browser." />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <!-- ===== main container start ===== -->
-    <div class="main-container">
-        <!-- ===== Aside start ===== -->
-        <div class="aside">
-            <div class="logo">
-                <a href="#"><span>I</span>fti</a>
-            </div>
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-            <ul class="nav">
-                <li><a href="#home"class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
-            </ul>
-        </div>
-        <!-- ===== Aside end ===== -->
-        <!-- ===== main content start ===== -->
-        <div class="main-content">
-            <!-- ===== Home section start ===== -->
-            <section class="home section" id="home">
-                <div class="container">
-                    <div class="row">
-                        <div class="home-info padd-15">
-                            <h3 class="hello">Hello,my name is <span class="name">Iftekhar Jahanabadi</span></h3>
-                            <h3 class="my-profession">I' am  <span class="typing">Web Designer</span></h3>
-                            <p>Hey! This is Ifti i am from Bangladesh,Chattogram.I am a CSE student and unique creative Web designer and Developer.This is my Portfolio website.
-                            </p>
-                            <a target="_blank" href="https://www.instagram.com/iftekharjb/" class="btn hire-me">Follow Me</a>
-                        </div>
-                        <div class="home-img padd-15">
-                            <img src="images/home2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ===== Home section end ===== -->
-            <!-- ===== About section start ===== -->
-            <section class="about section" id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>About Me</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="about-content padd-15">
-                            <div class="row">
-                                <div class="about-text padd-15">
-                                    <h3>I' Am Iftekhar Jahanabadi and <span>Web Developer</span></h3>
-                                    <p>Assalamu Alaikum, This is me i am 20 Years old.That is my 4Th website.Below is a list of my skills and details.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="personal-info padd-15">
-                                    <div class="row">
-                                        <div class="info-iteam padd-15">
-                                            <p>Birthday : <span> </span></p>
-                                        </div>
-                                        <div class="info-iteam padd-15">
-                                            <p>Age : <span>20</span></p>
-                                        </div>
-                                        <div class="info-iteam padd-15">
-                                            <p>Website : <span>www.ifti.com</span></p>
-                                        </div>
-                                        <div class="info-iteam padd-15">
-                                            <p>Email : <span>098iftekhar@gmail.com</span></p>
-                                        </div>
-                                        <div class="info-iteam padd-15">
-                                            <p>Degree : <span>CSE</span></p>
-                                        </div>
-                                        <div class="info-iteam padd-15">
-                                            <p>Phone : <span>90488440</span></p>
-                                        </div>
-                                        <div class="info-iteam padd-15">
-                                            <p>City : <span>Chattogram</span></p>
-                                        </div>
-                                        <div class="info-iteam padd-15">
-                                            <p>Freelance : <span>Available</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="buttons padd-15">
-                                            <a target="_blank" href="CV/Cv.pdf" class="btn">Download CV</a>
-                                            <a href="#contact" class="btn hire-me">Hire Me</a>
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills padd-15">
-                                    <div class="row">
-                                        <div class="skill-iteam padd-15">
-                                            <h5>CSS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-iteam padd-15">
-                                            <h5>JS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 86%;"></div>
-                                                <div class="skill-percent">86%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-iteam padd-15">
-                                            <h5>React JS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 66%;"></div>
-                                                <div class="skill-percent">66%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-iteam padd-15">
-                                            <h5>HTML</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 96%;"></div>
-                                                <div class="skill-percent">96%</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                            </div>
-                            <div class="row">
-                                <div class="education padd-15">
-                                    <h3 class="title">Education</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <!--====timeline iteam ====--->
-                                                <div class="timeline-iteam">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2010 - 2015
-                                                    </h3>
-                                                    <h4 class="timeline-title">Primary School Certificate</h4>
-                                                    <p class="timeline-text">My educational life started in Jahanabad Government Primary School premises, the beginning was as happy as the end was just painful. I miss my teachers in my early life very much.</p>
+  <header>
+    <div class="container row">
+      
+      <div class="brand">
 
-                                                </div>
-                                                <!--====timeline iteam ====--->
-                                                <div class="timeline-iteam">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2015 - 2020
-                                                    </h3>
-                                                    <h4 class="timeline-title">Junior & Senior School Certificate</h4>
-                                                    <p class="timeline-text">At the end of primary life,I stepped into secondary life. Initially, I was admitted to Kumira residential hostel.After completing class 6, Then he came to his village Madam-Bibir Hat Shahjahan High School.I passed matric there in 2020.</p>
+        <div class="logo"></div>
 
-                                                </div>
-                                                <!--====timeline iteam ====--->
-                                                <div class="timeline-iteam">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2020 - 2022
-                                                    </h3>
-                                                    <h4 class="timeline-title">Master in Computer Science</h4>
-                                                    <p class="timeline-text">Passed Intermediate from Vijay Samarani College in 2022. Admitted to National Polytechnic with Diploma in Computer Science. Currently I am a student in 5th semester.</p>
+        <div class="title">JB Code Editor – Live In Browser</div>
+      
+      </div>
 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="experience padd-15">
-                                    <h3 class="title">Experience</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <!--====timeline iteam ====--->
-                                                <div class="timeline-iteam">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2013 - 2015
-                                                    </h3>
-                                                    <h4 class="timeline-title">Master in Computer Science</h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus eum vero delectus maxime distinctio commodi hic itaque totam? In, voluptas? Facilis tenetur numquam pariatur sed?</p>
+      <div class="row">
+        <button class="btn secondary" id="saveBtn" title="Save work locally"><span>Save</span></button>
+        <button class="btn secondary" id="loadBtn" title="Load work file"><span>Load</span></button>
+        <input id="openFile" type="file" accept="application/json" hidden>
+      </div>
 
-                                                </div>
-                                                <!--====timeline iteam ====--->
-                                                <div class="timeline-iteam">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2013 - 2015
-                                                    </h3>
-                                                    <h4 class="timeline-title">Master in Computer Science</h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus eum vero delectus maxime distinctio commodi hic itaque totam? In, voluptas? Facilis tenetur numquam pariatur sed?</p>
 
-                                                </div>
-                                                <!--====timeline iteam ====--->
-                                                <div class="timeline-iteam">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2013 - 2015
-                                                    </h3>
-                                                    <h4 class="timeline-title">Master in Computer Science</h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus eum vero delectus maxime distinctio commodi hic itaque totam? In, voluptas? Facilis tenetur numquam pariatur sed?</p>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ===== About section end ===== -->
-            <!-- ===== Services section start ===== -->
-            <section class="service section" id="services">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Services</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!---==== Services iteam start====-->
-                        <div class="service-iteam padd-15">
-                            <div class="service-iteam-inner">
-                                <div class="icon">
-                                    <i class="fa fa-mobile-alt"></i>
-                                </div>
-                                <h4>DeveloPing</h4>
-                                <p>Lead with empathy and a sincere desire to understand and get to know the other person. Beyond empathy, lead with respect.you'll be better positioned to build rapport more effectively.</p>
-                            </div>
-                        </div>
-                        <!---==== Services iteam end====-->
-                        <!---==== Services iteam start====-->
-                        <div class="service-iteam padd-15">
-                            <div class="service-iteam-inner">
-                                <div class="icon">
-                                    <i class="fa fa-laptop-code"></i>
-                                </div>
-                                <h4>Web Design</h4>
-                                <p>Building positive relationships with your clients is the secret ingredient to delivering better work, earning more money, and creating lasting partnerships.Web designer and take your practice to the next level.</p>
-                            </div>
-                        </div>
-                        <!---==== Services iteam end====-->
-                        <!---==== Services iteam start====-->
-                        <div class="service-iteam padd-15">
-                            <div class="service-iteam-inner">
-                                <div class="icon">
-                                    <i class="fa fa-palette"></i>
-                                </div>
-                                <h4>CustoMize</h4>
-                                <p>It can be hard for us to make a strong impression without the face-face-face energy exchange.The pandemic have changed how we connect, professionals need to be able to use remote meetings</p>
-                            </div>
-                        </div>
-                        <!---==== Services iteam end====-->
-                        <!---==== Services iteam start====-->
-                        <div class="service-iteam padd-15">
-                            <div class="service-iteam-inner">
-                                <div class="icon">
-                                    <i class="fa fa-code"></i>
-                                </div>
-                                <h4>CooDer</h4>
-                                <p>"Some things I like to do better than other things, but I've got to say that in the end, the thing that makes it the most interesting for"</p>
-                            </div>
-                        </div>
-                        <!---==== Services iteam end====-->
-                        <!---==== Services iteam start====-->
-                        <div class="service-iteam padd-15">
-                            <div class="service-iteam-inner">
-                                <div class="icon">
-                                    <i class="fa fa-search"></i>
-                                </div>
-                                <h4>SEO</h4>
-                                <p>“Good SEO work only gets better over time"
-                                “My rule of thumb is build a site for a user,not a spider.”</p>
-                            </div>
-                        </div>
-                        <!---==== Services iteam end====-->
-                        <!---==== Services iteam start====-->
-                        <div class="service-iteam padd-15">
-                            <div class="service-iteam-inner">
-                                <div class="icon">
-                                    <i class="fa fa-bullhorn"></i>
-                                </div>
-                                <h4>MarKetting</h4>
-                                <p>Whether it’s a generic marketing quote to inspire your team, a content marketing quote to provoke discussion about </p>
-                            </div>
-                        </div>
-                        <!---==== Services iteam end====-->
-                    </div>
-                </div>
-            </section>
-            <!-- ===== Services section end ===== -->
-            <!-- ===== Portfolio section Start ===== -->
-            <section class="portfolio section" id="portfolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Portfolio</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="portfolio-heading padd-15">
-                            <h2>My Recent Project : </h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!--==== portfolio iteam start =====-->
-                        <div class="portfolio-iteam padd-15">
-                            <div class="portfolio-iteam-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/portfolio.1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--==== portfolio iteam end =====-->
-                         <!--==== portfolio iteam start =====-->
-                         <div class="portfolio-iteam padd-15">
-                            <div class="portfolio-iteam-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/portfolio.2.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--==== portfolio iteam end =====-->
-                         <!--==== portfolio iteam start =====-->
-                         <div class="portfolio-iteam padd-15">
-                            <div class="portfolio-iteam-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/portfolio.3.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--==== portfolio iteam end =====-->
-                         <!--==== portfolio iteam start =====-->
-                         <div class="portfolio-iteam padd-15">
-                            <div class="portfolio-iteam-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/portfolio.4.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--==== portfolio iteam end =====-->
-                         <!--==== portfolio iteam start =====-->
-                         <div class="portfolio-iteam padd-15">
-                            <div class="portfolio-iteam-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/portfolio.5.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--==== portfolio iteam end =====-->
-                         <!--==== portfolio iteam start =====-->
-                         <div class="portfolio-iteam padd-15">
-                            <div class="portfolio-iteam-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/portfolio.6.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--==== portfolio iteam end =====-->
-                    </div>
-                </div>
-            </section>
-            <!-- ===== Portfolio section end ===== -->
-            <!-- ===== Contact section start ===== -->
-            <section class="contact section" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Contact Me</h2>
-                        </div>
-                    </div>
-                    <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
-                    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
-                    <div class="row">
-                        <!--==== Contact Info Iteam start =====-->
-                        <div class="contact-info-iteam padd-15">
-                            <div class="icon"><i class="fa fa-phone"></i></div>
-                            <h4>Call Us On</h4>
-                            <p>+88 01890-488440</p>
-                        </div>
-                        <!--==== Contact Info Iteam end =====-->
-                         <!--==== Contact Info Iteam start =====-->
-                         <div class="contact-info-iteam padd-15">
-                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-                            <h4>Office</h4>
-                            <p>Bangladesh,Chattogram</p>
-                        </div>
-                        <!--==== Contact Info Iteam end =====-->
-                         <!--==== Contact Info Iteam start =====-->
-                         <div class="contact-info-iteam">
-                            <div class="icon"><i class="fa fa-envelope"></i></div>
-                            <h4>Email</h4>
-                            <p>098iftekhar@gmail.com</p>
-                        </div>
-                        <!--==== Contact Info Iteam end =====-->
-                         <!--==== Contact Info Iteam start =====-->
-                         <div class="contact-info-iteam padd-15">
-                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                            <h4>Website</h4>
-                            <p>www.domain.com</p>
-                        </div>
-                        <!--==== Contact Info Iteam end =====-->
-                    </div>
-                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-                    <h4 class="contact-sub-title padd-15">I'M VERY REPOSIVE TO MESSAGES</h4>
-                    <!--=== Contact Form ===-->
-                    <div class="row">
-                        <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-iteam col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="form-iteam col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-iteam col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-iteam col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-iteam col-12 padd-15">
-                                    <button type="submit" class="btn">Send Message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ===== Contact section end ===== -->
-        </div>
-        <!-- ===== main content end ===== -->
     </div>
-    <!-- ===== main container end ===== -->
-    <!--=== Style Switcher Start ===-->
-    <div class="style-switcher">
-        <div class="style-switcher-toggler s-icon">
-            <i class="fas fa-cog fa-spin"></i>
+  </header>
+
+  <main>
+
+
+    <!-- Left panel: Task description and settings -->
+    <aside class="card panel stack">
+      <h2>Task / Assignment</h2>
+
+      <textarea id="assignment" class="text" placeholder="Write the task description here..."></textarea>
+
+      <div class="stack">
+        <label for="testArea">Validation tests (JavaScript only – optional)</label>
+        <textarea id="testArea" class="text" placeholder="Write simple tests to append after the student's code to check the solution."></textarea>
+      </div>
+
+      <div class="muted">
+        Tip: <span class="kbd">Ctrl</span> + <span class="kbd">S</span> to save,
+        <span class="kbd">Ctrl</span> + <span class="kbd">Enter</span> to run.
+      </div>
+
+    </aside>
+
+    <!-- Middle: Editors and preview -->
+    <section class="stack" id="web-only">
+      <div id="webEditors" class="stack card panel">
+        <div class="row">
+          <h2>HTML / CSS / JS</h2>
+          <div class="row">
+            <button class="btn ok" id="runWeb">Run</button>
+            <button class="btn secondary" id="openPreview">Open preview in window</button>
+          </div>
         </div>
-        <div class="day-night s-icon">
-            <i class="fas "></i>
+
+        <div class="tabs" id="webTabs" role="tablist" aria-label="Web editors">
+          <button class="tab active" role="tab" aria-selected="true" tabindex="0" data-pane="html">HTML</button>
+          <button class="tab" role="tab" aria-selected="false" tabindex="-1" data-pane="css">CSS</button>
+          <button class="tab" role="tab" aria-selected="false" tabindex="-1" data-pane="js">JavaScript</button>
         </div>
-        <h4>Theme Colors</h4>
-        <div class="colors">
-            <span class="color-1" onclick="SetActiveStyle(color-1)"></span>
-            <span class="color-2" onclick="SetActiveStyle(color-2)"></span>
-            <span class="color-3" onclick="SetActiveStyle(color-3)"></span>
-            <span class="color-4" onclick="SetActiveStyle(color-4)"></span>
-            <span class="color-5" onclick="SetActiveStyle(color-5)"></span>
+
+        <!-- Link each editor to a clear panel name -->
+        <div class="editor-wrap" data-pane="html"><div id="ed_html" class="editor"></div></div>
+        <div class="editor-wrap" data-pane="css" hidden><div id="ed_css" class="editor"></div></div>
+        <div class="editor-wrap" data-pane="js" hidden><div id="ed_js" class="editor"></div></div>
+
+        <div class="stack">
+          <h3>Preview</h3>
+          <iframe id="preview" class="preview" sandbox="allow-scripts allow-same-origin allow-modals"></iframe>
         </div>
-    </div>
-    <!--=== Style Switcher End ===-->
-   <!-- ===== js files ===== -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script src="script.js"></script>
-   <script src="style-switcher.js "></script>
+      </div>
+    </section>
+
+    <!-- Right: Output and log -->
+    <aside class="card panel stack">
+      <h2>Output</h2>
+      <div id="output" class="out" aria-live="polite"></div>
+      <div class="row">
+        <button class="btn warn" id="runTests">Run with tests</button>
+        <button class="btn secondary" id="clearOut">Clear log</button>
+      </div>
+      <h3>Notes</h3>
+      <ul class="muted" style="margin:0 0 8px 0; padding-inline-start:18px">
+        <li>Everything runs inside the browser in a sandbox.</li>
+        <li>You can save the work as a JSON file and restore it.</li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <div class="footer">© 2025 Programming JB Academy — All rights reserved</div>
+
+  <!-- External libraries: Ace only -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.43.2/ace.js"
+    integrity="sha512-ZIa+FlPaGDSM+lTl9JaxnQvcfma7ETsOHd9Thbhp5u4RX1uYiDNW7XvUrXv4dJSPetXbiTzWilHEkSg4YpmltQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    onerror="(function(){var s=document.createElement('script'); s.src='https://cdn.jsdelivr.net/npm/ace-builds@1.43.2/src-min/ace.js'; document.head.appendChild(s);}())">
+  </script>
+  
+
+  <script src="script.js"></script>
 </body>
 </html>
-
